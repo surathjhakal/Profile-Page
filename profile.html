@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profle Page</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="./profile.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="profilePage_top">
+      <div class="profilePage">
+        <div class="profilePage_header">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCvhclL5SPZa_Qqm-Q1i5wxvp4xjkNsJQAMnNuhERn31DXHuWC-YpVgEt5Ua_juj2_7KM&usqp=CAU"
+            alt="image"
+            class="profilePage_image"
+          />
+          <div class="profilePage_header_info">
+            <h2>Surath Jhakal</h2>
+            <p>Mumbai,India</p>
+          </div>
+        </div>
+        <form
+          method="POST"
+          action="#"
+          enctype="multipart/form-data"
+          class="profilePage_info"
+          id="pp"
+        >
+          <div class="profilePage_info_line1">
+            <div class="profilePage_name">
+              <p>Name</p>
+              <input
+                type="text"
+                name="user_firstName"
+                placeholder="Enter your Name"
+              />
+            </div>
+            <div class="profilePage_name">
+              <p>Last Name</p>
+              <input
+                type="text"
+                placeholder="Enter your last name"
+                name="user_lastName"
+              />
+            </div>
+          </div>
+          <div class="profilePage_info_line2">
+            <div class="profilePage_email">
+              <p>Email Address</p>
+              <input type="text" placeholder="Enter your email" />
+            </div>
+            <div class="profilePage_password">
+              <p>Password</p>
+              <input type="text" placeholder="••••••••" />
+            </div>
+          </div>
+          <div class="profilePage_info_line3">
+            <div class="profilePage_phoneNumber">
+              <p>Phone Number</p>
+              <input type="number" placeholder="Enter your phone no." />
+            </div>
+            <div class="profilePage_gender">
+              <p>Gender</p>
+              <input
+                type="text"
+                placeholder="e.g. Male or Female"
+                name="user_gender"
+              />
+            </div>
+          </div>
+          <div class="profilePage_info_line4">
+            <div class="profilePage_location">
+              <p>Location</p>
+              <input
+                type="text"
+                placeholder="e.g. Mumbai,India"
+                name="user_location"
+              />
+            </div>
+            <div class="profilePage_postal_code">
+              <p>Postal Code</p>
+              <input
+                type="number"
+                placeholder="e.g. 327684"
+                name="user_postal_code"
+              />
+            </div>
+          </div>
+        </form>
+        <div class="profilePage_save_changes">
+          <button type="submit" form="pp">
+            Save Changes
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
